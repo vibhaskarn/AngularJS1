@@ -11,7 +11,7 @@ export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected= new EventEmitter<Recipe>();
   recipes: Recipe[]=[
     new Recipe('Test Recipe','This test description','https://www.spoonacular.com/whatever/pineapple.jpg'),
-    new Recipe('Test Recipe 2','This test2 description','https://www.spoonacular.com/whatever/pineapple.jpg')
+    new Recipe('Another Test Recipe','This test2 description','https://www.spoonacular.com/whatever/pineapple.jpg')
   ];
 
   constructor() { }
