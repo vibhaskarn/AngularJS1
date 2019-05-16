@@ -17,6 +17,7 @@ ingredients: Ingredient[] = [
   }
 
   onIngredientAdded(ingredient: Ingredient){
+    console.log("Hitting push"+ingredient.amount)
     this.ingredients.push(ingredient);
   }
 
